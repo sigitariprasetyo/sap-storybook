@@ -1,4 +1,5 @@
 import React from "react";
+import Center from "../Center/Center";
 import Button from "./Button";
 
 export default {
@@ -6,7 +7,15 @@ export default {
   component: Button,
   args: {
     children: 'Button'
-  }
+  },
+  //Component Decorators
+  decorators: [
+    story => (
+      <Center>
+        {story()}
+      </Center>
+    )
+  ]
 }
 
 export const Primary = () => <Button variant="primary">Primary</Button>
@@ -21,6 +30,8 @@ PrimaryA.args = {
   variant: 'primary',
   children: 'Primary A'
 }
+//story decorators
+PrimaryA.secorators = [story => <Center>{story()}</Center>]
 
 export const LongPrimaryA = Template.bind({})
 LongPrimaryA.args = {

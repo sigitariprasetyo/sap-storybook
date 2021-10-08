@@ -2,7 +2,7 @@
   border: none;
   color: white;
   padding: 15px 32px;
-  width: 150px;
+  min-width: 150px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

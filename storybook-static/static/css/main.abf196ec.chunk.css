@@ -1,0 +1,43 @@
+.center{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  min-width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary{background-color: rgb(38, 114, 230);}
+.secondary{background-color: rgb(219, 219, 219); color: black;}
+.success{background-color: rgb(57, 189, 107);}
+.danger{background-color: rgb(214, 65, 65);}
+.input{
+  width: 200px;
+  border: none;
+  padding: 0 .5rem ;
+  border-radius: 3px;
+  background-color: rgb(240, 240, 240);
+}
+
+.small{
+  height: 2rem;
+  font-size: 0.875rem;
+}
+.medium{
+  height: 2.5rem;
+  font-size: 1rem;
+}
+.large{
+  height: 3rem;
+  font-size: 1.25rem;
+}
+
+/*# sourceMappingURL=main.abf196ec.chunk.css.map*/
